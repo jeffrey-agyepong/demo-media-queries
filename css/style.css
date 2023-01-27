@@ -1,0 +1,39 @@
+/* Generic Styles */
+div:first-of-type {
+    padding: 2rem;
+    background-color: tomato;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+div:nth-of-type(2) {
+    padding: 2rem;
+    background-color: khaki;
+}
+
+div:last-of-type {
+    padding: 2rem;
+    background-color: seagreen;
+}
+
+
+
+/** Mobile **/
+@media screen and (max-width: 43.75rem) {
+    div:first-of-type {
+        background-color: beige;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    div:first-of-type {
+        background-color: rebeccapurple;
+    }
+
+    div:nth-of-type(2) {
+        background-color: blue;
+    }
+}
